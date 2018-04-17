@@ -53,6 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  resources :products,root to: only: [:index]
+  resources :products, only: [:index]
+  roo
   
 end
