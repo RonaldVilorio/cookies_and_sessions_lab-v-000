@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   resources :products, only: [:index]
-  resources :application, only: [:index]
-  root to: "application#index"
+  # resources :application, only: [:index]
+  root to: "a#index"
 
 end
